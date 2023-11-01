@@ -1,0 +1,73 @@
+footer {
+    background-color:  rgba(39, 177, 190,  0.2) ;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+footer > div > div > div > a > img {
+    width: 2rem;
+    padding-right: 1rem;
+}
+
+/* @font-face {
+    font-family: 'Chalike';
+    src: url('../assets/fonts/Chakie.ttf');
+} */
+
+footer h1 {
+    /* font-family: 'Chalkie'; */
+    font-size: 1.3rem;
+    letter-spacing:  0.2rem;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer > div > div > div > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div > div > div > a > h1 {
+    font-size: 1rem;
+}
+
+footer > div , footer > div > div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    footer {
+        flex-direction: column;
+        padding-block: 1rem;
+        display: flex;
+        
+        align-items: flex-start;
+        
+        justify-items: center;
+    }
+    footer > div {
+        margin-bottom: 1rem;
+    }
+    footer {
+        margin: 1px;
+    }
+
+    footer > div > h1 {
+        display: none;
+    }
+    
+}
+

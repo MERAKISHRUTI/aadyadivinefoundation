@@ -1,0 +1,87 @@
+.contact_block{
+    margin-top: 110px;
+}
+.info h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 160px;
+/* font-family: 'Castoro Titling', cursive; */
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Cherry Bomb One', cursive; */
+font-family: 'Dancing Script', cursive;
+/* font-family: 'Foldit', cursive; */
+margin-bottom: 0px;
+}
+.info p{
+    /* font-family: 'Cherry Bomb One', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: Alegreya Sans;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2.1rem;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    position: relative; */
+    padding: 0px 300px 0px 300px;
+    /* background-color: aqua; */
+}
+
+.number img{
+    height: 40px;
+    width: 50px;
+    padding-left: 0px;
+}
+.number{
+    display: flex;
+    /* background-color: blue; */
+}
+.qr_code img{
+    height: 200px;
+    width: 200px;
+    
+}
+.qr_code{
+    display: flex;
+    /* background-color: blue; */
+}
+.number1 img {
+    display: inline-block;
+}
+
+@media screen and (max-width: 1100px){
+    .info p{
+        padding: 5px;
+        
+    }
+    .info h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    /* font-family: 'Castoro Titling', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Cherry Bomb One', cursive; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Foldit', cursive; */
+    font-size: 70px;
+    margin-bottom: 0px;
+    }
+
+    .info .number {
+        display: block;
+    }
+    .info .qr_code{
+        display: block;
+    }
+    .number img{
+        display: none;
+    }
+    .qr_code img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
